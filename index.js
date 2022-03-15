@@ -59,6 +59,7 @@ module.exports = {
   },
 
   postprocessTree(type, tree) {
+    console.log('inside postprocesstree');
     if (type !== 'all') {
       return tree;
     }
